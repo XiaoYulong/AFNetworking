@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
-@import AFNetworking;
+#import <AFNetworking/AFNetworking.h>
 
 @interface AFAppDotNetAPIClient : AFHTTPSessionManager
 

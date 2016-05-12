@@ -26,7 +26,7 @@
 
 #import "PostTableViewCell.h"
 
-@import AFNetworking;
+#import <AFNetworking/AFNetworking.h>
 
 @interface GlobalTimelineViewController ()
 @property (readwrite, nonatomic, strong) NSArray *posts;
